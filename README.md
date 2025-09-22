@@ -1,6 +1,6 @@
 Code for: How catastrophic is catastrophic? LiDAR assessment of forest structural change after the 2009 Black Saturday bushfires
 
-Authors: Kaitlyn L. Hammond (1), Craig R. Nitschke (1), Raphael Trouve (1), and Patrick J. Baker School of Agriculture, Food, and Ecosystem Sciences, University of Melbourne, Victoria 3010, Australia
+Authors: Kaitlyn L. Hammond (1), Craig R. Nitschke (1), and Patrick J. Baker School of Agriculture, Food, and Ecosystem Sciences, University of Melbourne, Victoria 3010, Australia
 
 Correspondance: kaitlyn.hammond@student.unimelb.edu.au
 
