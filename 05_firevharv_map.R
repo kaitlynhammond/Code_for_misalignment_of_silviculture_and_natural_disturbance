@@ -23,11 +23,11 @@ silv_equiv <- st_transform(silv_equiv, st_crs(bbox))
 silv_equiv <- st_crop(silv_equiv, bbox)
 silv_equiv <- silv_equiv %>%
   mutate(System = case_when(treatment == 1 ~ "Unharvested",
-                            treatment == 2 ~ "Selective harvesting",
-                            treatment == 3 ~ "Dispersed retention",
+                            treatment == 2 ~ "Light dispersed retention",
+                            treatment == 3 ~ "Heavy dispersed retention",
                             treatment == 4 ~ "Aggregated retention",
                             treatment == 5 ~ "Clearfell/Seed tree"),
-         System = factor(System, levels = c("Unharvested", "Selective harvesting","Dispersed retention", "Aggregated retention", "Clearfell/Seed tree")))
+         System = factor(System, levels = c("Unharvested", "Light dispersed retention","Heavy dispersed retention", "Aggregated retention", "Clearfell/Seed tree")))
 
 
 
